@@ -1,0 +1,26 @@
+{
+  "name": "eleventy-starter-project",
+  "version": "1.0.0",
+  "description": "figuring out eleventy syntax, nothing to see here",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JarlTetrazepam/eleventy-starter-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JarlTetrazepam/eleventy-starter-project/issues"
+  },
+  "homepage": "https://github.com/JarlTetrazepam/eleventy-starter-project#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  },
+  "dependencies": {
+    "file-size": "^1.0.0"
+  }
+}

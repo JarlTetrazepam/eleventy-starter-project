@@ -1,0 +1,26 @@
+---json
+"title": "Eleventy"
+"images": {
+    "2020.png",
+    "2021.jpg",
+    "dance.gif",
+    "turning.gif"
+}
+---
+
+<!doctype html>
+<html lang="en"> 
+    <head>  
+        <meta charset="utf-8">  
+        <title>{{ title }}</title> 
+    </head> 
+    <body>  
+        <h1>{{ title }}</h1>  
+        <ul>
+            {% for filename in images %}
+            {% capture path %}images/{{ filename }}{% endcapture %}
+            <li><a href="images/{{ filename | url_encode }}">{{ filename }}</a> {{ path | filesize }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
